@@ -8,7 +8,7 @@ A web application designed to streamline the organization of peer practice sessi
 * **Role-Based Joining:** Participants join a session explicitly as either a "Leader" or a "Follower" to maintain role balance and manage rotation logistics.
 * **Group Management:** Registered users can create, configure, and manage dedicated practice groups.
 * **Frictionless Entry (QR Code):** Generates a QR code for immediate access, allowing dancers to scan and join the group link instantly from their phones.
-* **Spotlight Pairing Generator:** An automated engine that generates pairings for spotlight dances. It utilizes the Hungarian algorithm (minimum cost bipartite matching) wrapped in a custom outer loop to handle uneven groups. The primary constraint is to ensure everyone dancing gets exactly one partner per spotlight while minimizing repeat partnerships across the session's history.
+* **Spotlight Pairing Generator:** An automated engine that generates pairings for spotlight dances. It utilizes the Hungarian algorithm (minimum cost bipartite matching) wrapped in a custom outer loop to handle uneven groups. The primary constraint is to ensure everyone dancing gets exactly one partner per spotlight while minimizing repeat partnerships across the group's history (pairing history is tracked at the group level, persisting across all sessions within that group).
 
 ## User Flows
 
